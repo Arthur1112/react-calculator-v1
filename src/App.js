@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='calculatior-grid'>
       <div className='output'>
         <div className='previous-oprand'></div>
         <div className='current-oprand'></div>
@@ -22,6 +22,7 @@ function App() {
         <button>8</button>
         <button>9</button>
         <button>-</button>
+        <button>.</button>
         <button>0</button>
         <button className='span-two'>=</button>
     </div>
